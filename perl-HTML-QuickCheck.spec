@@ -3,7 +3,7 @@ Summary:	HTML-QuickCheck perl module
 Summary(pl):	Modu³ perla HTML-QuickCheck
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
