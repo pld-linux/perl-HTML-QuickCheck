@@ -1,0 +1,8 @@
+--- lib/HTML/QuickCheck.pm~	Sun Oct  1 12:16:25 1995
++++ lib/HTML/QuickCheck.pm	Fri Nov  5 18:22:55 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ ;# HTMLQuickCheck.pm: a simple/fast html syntax checking package for perl 4
+ ;# and 5.
+ 
