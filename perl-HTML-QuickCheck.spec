@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	QuickCheck
-Summary:	HTML-QuickCheck perl module
-Summary(pl):	Modu³ perla HTML-QuickCheck
+Summary:	HTML::QuickCheck perl module
+Summary(pl):	Modu³ perla HTML::QuickCheck
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML-QuickCheck - fast simple validation of HMTL text.
+HTML::QuickCheck - fast simple validation of HMTL text.
 
 %description -l pl
-HTML-QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów
+HTML::QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów
 HTML.
 
 %prep
