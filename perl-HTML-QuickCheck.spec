@@ -6,7 +6,7 @@ Summary(pl):	Modu³ perla HTML::QuickCheck
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
 Release:	9
-License:	GPL
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	55428ba8fefb469ddc7cdf0240172cb1
