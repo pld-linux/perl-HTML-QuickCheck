@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	QuickCheck
-Summary:	HTML::QuickCheck perl module
-Summary(pl):	Modu³ perla HTML::QuickCheck
+Summary:	HTML::QuickCheck - a simple and fast HTML syntax checking package for perl
+Summary(pl):	HTML::QuickCheck - prosty i szybki pakiet do sprawdzania sk³adni HTML-a
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
 Release:	9
@@ -19,9 +19,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HTML::QuickCheck - fast simple validation of HMTL text.
 
+The objective of the HTML::QuickCheck package is to provide a fast and
+essential HTML check (esp. for CGI scripts where response time is
+important) to prevent a piece of user input HTML code from messing up
+the rest of a file, i.e., to minimize and localize any possible damage
+created by including a piece of user input HTML text in a dynamic
+document.
+
 %description -l pl
-HTML::QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów
-HTML.
+Ide± pakietu HTML::QuickCheck jest udostêpnienie szybkiego,
+podstawowego interfejsu do sprawdzania poprawno¶ci HTML-a (w
+szczególno¶ci, czas odpowiedzi jest istotny dla skryptów CGI), aby
+zapobiec zamieszaniu w pliku, jakie mo¿e wprowadziæ fragment danych
+wej¶ciowych w HTML-u. Tzn., ma na celuminimalizacjê i lokalizacjê
+mo¿liwych uszkodzeñ dynamicznego dokumentu HTML poprzez wprowadzenie
+przez u¿ytkownika swoich danych jako HTML-u.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
