@@ -1,4 +1,4 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-QuickCheck perl module
 Summary(pl):	Modu³ perla HTML-QuickCheck
 Name:		perl-HTML-QuickCheck
@@ -8,19 +8,22 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-QuickCheck-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+Patch:		perl-HTML-QuickCheck-paths.patch
+BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
-HTML-QuickCheck - fast simple validation of HMTL text
+HTML-QuickCheck - fast simple validation of HMTL text.
 
 %description -l pl
-HTML-QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów HTML
+HTML-QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów HTML.
 
 %prep
 %setup -q -n HTML-QuickCheck-%{version}
+%patch -p0
 
 %build
 perl Makefile.PL
