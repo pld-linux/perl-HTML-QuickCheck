@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla HTML-QuickCheck
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-QuickCheck-%{version}.tar.gz
-Patch:		perl-HTML-QuickCheck-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-QuickCheck-%{version}.tar.gz
+Patch0:		perl-HTML-QuickCheck-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -19,7 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTML-QuickCheck - fast simple validation of HMTL text.
 
 %description -l pl
-HTML-QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów HTML.
+HTML-QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów
+HTML.
 
 %prep
 %setup -q -n HTML-QuickCheck-%{version}
