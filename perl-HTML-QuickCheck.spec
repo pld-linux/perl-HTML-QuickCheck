@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	QuickCheck
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-QuickCheck perl module
 Summary(pl):	Modu³ perla HTML-QuickCheck
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ HTML-QuickCheck - proste i szybkie sprawdzanie poprawno¶ci dokumentów
 HTML.
 
 %prep
-%setup -q -n HTML-QuickCheck-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
