@@ -31,7 +31,7 @@ Ide± pakietu HTML::QuickCheck jest udostêpnienie szybkiego,
 podstawowego interfejsu do sprawdzania poprawno¶ci HTML-a (w
 szczególno¶ci, czas odpowiedzi jest istotny dla skryptów CGI), aby
 zapobiec zamieszaniu w pliku, jakie mo¿e wprowadziæ fragment danych
-wej¶ciowych w HTML-u. Tzn., ma na celuminimalizacjê i lokalizacjê
+wej¶ciowych w HTML-u. Tzn., ma na celu minimalizacjê i lokalizacjê
 mo¿liwych uszkodzeñ dynamicznego dokumentu HTML poprzez wprowadzenie
 przez u¿ytkownika swoich danych jako HTML-u.
 
