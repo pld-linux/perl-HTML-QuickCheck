@@ -27,7 +27,7 @@ HTML.
 %patch -p0
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
