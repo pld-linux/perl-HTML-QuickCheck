@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	QuickCheck
+%define		pdir	HTML
+%define		pnam	QuickCheck
 Summary:	HTML::QuickCheck - a simple and fast HTML syntax checking package for perl
 Summary(pl):	HTML::QuickCheck - prosty i szybki pakiet do sprawdzania sk³adni HTML-a
 Name:		perl-HTML-QuickCheck
