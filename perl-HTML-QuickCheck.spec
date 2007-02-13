@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	QuickCheck
 Summary:	HTML::QuickCheck - a simple and fast HTML syntax checking package for perl
-Summary(pl.UTF-8):   HTML::QuickCheck - prosty i szybki pakiet do sprawdzania składni HTML-a
+Summary(pl.UTF-8):	HTML::QuickCheck - prosty i szybki pakiet do sprawdzania składni HTML-a
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
 Release:	10
