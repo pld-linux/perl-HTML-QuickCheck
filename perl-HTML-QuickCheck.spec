@@ -37,7 +37,7 @@ przez użytkownika swoich danych jako HTML-u.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 %{__perl} Makefile.PL \
