@@ -4,7 +4,7 @@ Summary:	HTML::QuickCheck - a simple and fast HTML syntax checking package for p
 Summary(pl.UTF-8):	HTML::QuickCheck - prosty i szybki pakiet do sprawdzania składni HTML-a
 Name:		perl-HTML-QuickCheck
 Version:	1.0b1
-Release:	11
+Release:	12
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
